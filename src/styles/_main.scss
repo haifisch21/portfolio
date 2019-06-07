@@ -287,3 +287,30 @@
     width: 25rem;
   }
 }
+
+.more-skills{
+  &__title {
+    @include font(20px, 700);
+    padding-top: 10rem;
+    color: $black;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}
+
+.more-skills-block{
+
+
+  &__text{
+    @include span(12);
+    @include font(16px, 500);
+    line-height: 2.4rem;
+    margin-bottom: 3rem;
+    border-left: 4px solid $yellow;
+    padding-left: 2rem;
+
+    &:last-child{
+      margin-bottom: 10rem;
+    }
+  }
+}

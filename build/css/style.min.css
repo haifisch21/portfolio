@@ -349,6 +349,25 @@ button {
   .portfolio-block__img {
     margin-top: 5rem;
     width: 25rem; }
+
+.more-skills__title {
+  font: 700 normal 2rem / 1 "Montserrat", sans-serif;
+  padding-top: 10rem;
+  color: #000;
+  text-transform: uppercase;
+  text-align: center; }
+
+.more-skills-block__text {
+  width: calc(100% - 30px);
+  margin-left: 15px;
+  margin-right: 15px;
+  font: 500 normal 1.6rem / 1 "Montserrat", sans-serif;
+  line-height: 2.4rem;
+  margin-bottom: 3rem;
+  border-left: 4px solid #f1d830;
+  padding-left: 2rem; }
+  .more-skills-block__text:last-child {
+    margin-bottom: 10rem; }
   @media (min-width: 320px) {
   .container {
     margin: 0 auto; }

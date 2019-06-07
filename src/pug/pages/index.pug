@@ -21,7 +21,7 @@ include ../components/_mixin
                 include ../components/_separator
                 +e.P.text Меня зовут Александр. Занимаюсь версткой веб-сайтов разной сложности. Разработка для меня - это постоянное развитие в профессиональном плане и открытие новых возможностей в it-сфере. Благодаря многолетнему опыту мне удалось выяснить, насколько важно клиенту получить высокоэффективный сайт.
             +b.knowledge
-                +e.title Знаю, умею практикую
+                +e.title Знаю, умею, практикую
                 .row_flex
                     +b.skills-grid
                         each item in skills
@@ -55,4 +55,13 @@ include ../components/_mixin
                             +b.portfolio-block
                                 +e.IMG(src="/img/" + item.img).img
                 +e.P.link-text Больше работ вы можете найти по этой
-                    +e.A(href="https://www.behance.net/citrus2904e0b6").link ссылкеs
+                    +e.A(href="https://www.behance.net/citrus2904e0b6").link ссылке
+    .light-bg
+        .container
+            +b.more-skills
+                +e.P.title Дополнительные навыки
+                include ../components/_separator
+                    +b.more-skills-block
+                        .row_flex
+                            each item in moreSkills
+                                +e.P.text=item.text
