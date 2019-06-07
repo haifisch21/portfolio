@@ -1,0 +1,58 @@
+include ../../../node_modules/bemto.pug/bemto
+include ../components/_vars
+include ../components/_mixin
+
+
++base-page
+    .main-bg
+        .container
+            .main
+                +b.logo
+                    +e.A(href="#").studio Александра Иртыщева
+                +b.main-text
+                    +e.H1.title FRONT-END РАЗРАБОТКА НА ПРОФЕССИОНАЛЬНОМ УРОВНЕ
+                    +e.P.subtitle Если вы устали тратить время на поиски идеального сайта - хватит это терпеть
+                +b.button
+                    +e.BUTTON(type="button").btn Связаться со мной
+    .dark-bg
+        .container
+            +b.introduce
+                +e.P.title Давайте <br> знакомиться
+                include ../components/_separator
+                +e.P.text Меня зовут Александр. Занимаюсь версткой веб-сайтов разной сложности. Разработка для меня - это постоянное развитие в профессиональном плане и открытие новых возможностей в it-сфере. Благодаря многолетнему опыту мне удалось выяснить, насколько важно клиенту получить высокоэффективный сайт.
+            +b.knowledge
+                +e.title Знаю, умею практикую
+                .row_flex
+                    +b.skills-grid
+                        each item in skills
+                            +b.skills
+                                +e.IMG(src="/img/" + item.imgColor).img._color
+                                +e.IMG(src="/img/" + item.imgGray).img._gray
+                                +e.P.text=item.text
+
+    .light-bg
+        .container
+            +b.suggest
+                +e.P.title ЧТО Я МОГУ ПРЕДЛОЖИТЬ ВАШЕМУ БИЗНЕСУ?
+                include ../components/_separator
+                .row_flex
+                    +b.suggest-grid
+                        each item in suggest
+                            +b.suggest-block
+                                +e.IMG(src="/img/" + item.img).img
+                                +e.P.title=item.title
+                                +e.P.text=item.text
+    .dark-bg
+        .container
+            +b.portfolio
+                +e.P.title Портфолио
+                include ../components/_separator
+                +e.P.subtitle Все еще сомневаетесь, делать заказ или нет?
+                +e.P.text Решение поможет принять великолепное портфолио, оценить которое вы сможете ниже
+                +b.portfolio-grid
+                    .row_flex
+                        each item in portfolio
+                            +b.portfolio-block
+                                +e.IMG(src="/img/" + item.img).img
+                +e.P.link-text Больше работ вы можете найти по этой
+                    +e.A(href="https://www.behance.net/citrus2904e0b6").link ссылке

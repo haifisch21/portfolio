@@ -1,0 +1,10 @@
+.separator{
+  @media (min-width: $sm){
+    border: none;
+    height: 2px;
+    background-color: $lightGray;
+    width: 10rem;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+  }
+}

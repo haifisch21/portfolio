@@ -1,0 +1,11 @@
+@import "variables";
+@import "mixins";
+@import "fonts";
+// wtf? some styles for reset browser margin/padding
+@import "reset";
+// grid styles
+@import "grid";
+// main page styles
+@import "main";
+// separator style
+@import "separator";

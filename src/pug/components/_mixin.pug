@@ -1,0 +1,11 @@
+//- Базовая разметка страницы
+mixin base-page(page)
+    doctype html
+    html(lang = "ru")
+        head
+            include ../meta/_head
+        body
+            if block
+                block
+            include ../components/_footer
+            include ../meta/_scripts
