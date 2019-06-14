@@ -9,11 +9,20 @@
     background: url("/img/bg-main.jpg") no-repeat top;
     background-size: cover;
   }
+
+  @media (min-width: $md) {
+    background: url("/img/bgmd.jpg") no-repeat top;
+    background-size: cover;
+  }
 }
 
 .logo {
   @media (min-width: $sm) {
     padding-top: 3.7rem;
+  }
+
+  @media (min-width: $lg) {
+    padding-top: 3.3rem;
   }
 
   &__studio {
@@ -35,8 +44,13 @@
       }
 
       &::before {
-        content: 'Студия';
+        content: 'Студия ';
+        margin-right: .5rem;
       }
+    }
+
+    @media (min-width: $lg) {
+      flex-direction: row;
     }
   }
 }
@@ -46,19 +60,36 @@
     padding-top: 11.3rem;
   }
 
+  @media (min-width: $lg) {
+    padding-top: 20.9rem;
+  }
+
   &__title {
-    @include font(18px, 900);
-    color: $yellow;
-    text-align: center;
-    padding-bottom: 2.5rem;
-    line-height: 24px;
+    @media (min-width: $sm) {
+      @include font(18px, 900);
+      color: $yellow;
+      text-align: center;
+      padding-bottom: 2.5rem;
+      line-height: 24px;
+    }
+
+    @media (min-width: $lg) {
+      @include font(28px, 900);
+      padding-bottom: 4rem;
+    }
   }
 
   &__subtitle {
-    @include font(16px, 400);
-    color: #f5f5f5;
-    text-align: center;
-    line-height: 20px;
+    @media (min-width: $sm) {
+      @include font(16px, 400);
+      color: #f5f5f5;
+      text-align: center;
+      line-height: 20px;
+    }
+
+    @media (min-width: $lg) {
+      @include font(22px, 400);
+    }
   }
 }
 
@@ -69,6 +100,10 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+  }
+
+  @media (min-width: $lg) {
+    padding-bottom: 25.3rem;
   }
 
   &__btn {
@@ -98,6 +133,19 @@
       line-height: 35px;
       color: $black;
       text-align: center;
+      width: 20rem;
+      margin: 0 auto;
+      text-transform: uppercase;
+    }
+
+    @media (min-width: $md) {
+      width: 30rem;
+    }
+
+    @media (min-width: $lg) {
+      @include font(35px, 900);
+      width: 54rem;
+      letter-spacing: 1.75px;
     }
   }
 
@@ -109,6 +157,14 @@
       line-height: 24px;
       width: 27rem;
       margin: 0 auto;
+    }
+
+    @media (min-width: $md) {
+      width: 70rem;
+    }
+
+    @media (min-width: $lg) {
+      width: 100rem;
     }
   }
 }
@@ -122,6 +178,11 @@
       text-align: center;
       color: $black;
       letter-spacing: 0.9px;
+    }
+
+    @media (min-width: $lg) {
+      @include font(25px, 700);
+      letter-spacing: 1.25px;
     }
   }
 }
@@ -196,25 +257,26 @@
       padding-top: 7.9rem;
       text-align: center;
     }
-  }
-}
 
-.suggest-grid {
-  @media (min-width: $sm) {
-    @include span(12);
+    @media (min-width: $lg) {
+      @include font(35px, 700);
+      padding-top: 10rem;
+    }
   }
 }
 
 .suggest-block {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  &:last-child {
-    padding-bottom: 4.2rem;
+  @media (min-width: $sm) {
+    @include span(12);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
+  @media (min-width: $md) {
+    @include span(6);
+  }
 
   &__img {
     padding-bottom: 3.2rem;
@@ -229,21 +291,33 @@
   }
 
   &__text {
-    @include font(15px, 400);
-    padding-bottom: 5.5rem;
-    text-align: center;
-    line-height: 2.4rem;
-    color: $black;
+    @media (min-width: $sm) {
+      @include font(15px, 400);
+      padding-bottom: 5.5rem;
+      text-align: center;
+      line-height: 2.4rem;
+      color: $black;
+    }
+
+    @media (min-width: $lg) {
+      width: 45rem;
+    }
   }
 }
 
 .portfolio {
   &__title {
-    @include font(20px, 700);
-    padding-top: 10rem;
-    color: $black;
-    text-transform: uppercase;
-    text-align: center;
+    @media (min-width: $sm) {
+      @include font(20px, 700);
+      padding-top: 10rem;
+      color: $black;
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+    @media (min-width: $lg) {
+      @include font(35px, 700);
+    }
   }
 
   &__subtitle {
@@ -254,14 +328,14 @@
     line-height: 2.4rem;
   }
 
-  &__text{
+  &__text {
     @include font(18px, 400);
     color: $wetAsphalt;
     text-align: center;
     line-height: 2.4rem;
   }
 
-  &__link-text{
+  &__link-text {
     @include font(20px, 600);
     line-height: 3rem;
     text-align: center;
@@ -269,48 +343,75 @@
     padding-bottom: 9.7rem;
   }
 
-  &__link{
+  &__link {
     @include font(20px, 900);
     margin-left: .5rem;
     color: $yellow;
   }
 }
 
-.portfolio-block{
-  @include span(12);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  &__img{
-    margin-top: 5rem;
-    width: 25rem;
-  }
-}
-
-.more-skills{
-  &__title {
-    @include font(20px, 700);
-    padding-top: 10rem;
-    color: $black;
-    text-transform: uppercase;
-    text-align: center;
-  }
-}
-
-.more-skills-block{
-
-
-  &__text{
+.portfolio-block {
+  @media (min-width: $sm) {
     @include span(12);
-    @include font(16px, 500);
-    line-height: 2.4rem;
-    margin-bottom: 3rem;
-    border-left: 4px solid $yellow;
-    padding-left: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    &:last-child{
-      margin-bottom: 10rem;
+  @media (min-width: $md) {
+    @include span(6);
+  }
+
+
+  &__img {
+    @media (min-width: $sm) {
+      margin-top: 5rem;
+      width: 25rem;
+    }
+
+    @media (min-width: $lg) {
+      width: 40rem;
+      height: 30.5rem;
+      padding-top: 6.8rem;
+    }
+  }
+}
+
+.more-skills {
+  &__title {
+    @media (min-width: $sm) {
+      @include font(20px, 700);
+      padding-top: 10rem;
+      color: $black;
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+    @media (min-width: $lg) {
+      @include font(35px, 700);
+    }
+  }
+}
+
+.more-skills-block {
+  padding-bottom: 10rem;
+
+  &__text {
+    @media (min-width: $sm) {
+      @include span(12);
+      @include font(16px, 500);
+      line-height: 2.4rem;
+      margin-bottom: 3rem;
+      border-left: 4px solid $yellow;
+      padding-left: 2rem;
+    }
+
+    @media (min-width: $md) {
+      @include span(6);
+    }
+
+    @media (min-width: $lg) {
+      @include font(18px, 500);
     }
   }
 }

@@ -1,0 +1,110 @@
+.footer-bg{
+  background-color: $signal-black;
+}
+
+.footer-block{
+  @include span(12);
+
+  @media (min-width: $md) {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+  }
+}
+
+.contacts-grid{
+  @media (min-width: $sm) {
+    @include span(12);
+    padding-top: 10rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  @media (min-width: $md) {
+    padding-top: 0;
+    flex: 1;
+    margin-top: -7rem;
+    justify-content: flex-end;
+  }
+
+  &__link{
+    @media (min-width: $sm) {
+      font-size: 30px;
+      text-decoration: none;
+      color: $agat-gray;
+      margin: 1.5rem;
+    }
+  }
+
+  &__link:hover{
+    color: $yellow;
+    transition: .5s;
+  }
+}
+
+.info{
+  @media (min-width: $sm) {
+    padding-top: 5.5rem;
+    padding-bottom: 10rem;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  @media (min-width: $md) {
+    display: flex;
+    flex: 2;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  &__title{
+    @media (min-width: $sm) {
+      @include font(16px, 500);
+      text-decoration: none;
+      color: $white;
+    }
+
+    @media (min-width: $md) {
+      margin-right: 1.2rem;
+    }
+
+    @media (min-width: $lg) {
+      margin-right: 6.8rem;
+    }
+  }
+
+  &__title:hover{
+    color: $yellow;
+    transition: .5s;
+  }
+
+  &__subtitle{
+    @media (min-width: $sm) {
+      @include font(16px, 300);
+      padding-top: 3rem;
+      color: $white;
+    }
+
+    @media (min-width: $md) {
+      padding-top: 0;
+      padding-bottom: 3rem;
+    }
+  }
+
+  &__copyright{
+    @media (min-width: $sm) {
+      @include font(16px, 300);
+      padding-top: 3rem;
+      color: $white;
+    }
+
+    @media (min-width: $md) {
+      padding-top: 0;
+      width: 40rem;
+      text-align: left;
+    }
+  }
+}

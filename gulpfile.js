@@ -27,7 +27,6 @@ const gulp         = require('gulp'),
 let cssvariables = require('postcss-css-variables');
 let nested = require('postcss-nested');
 
-
 const paths = {
   js:     './src/js/',
   libs:   './node_modules/',
@@ -53,7 +52,8 @@ const sources = {
   sassSrc:     paths.sass + 'style.scss',
   libsSassSrc: [
     paths.libs + 'tabed/src/tabed.scss',
-    paths.libs + 'normalize.css/normalize.css'
+    paths.libs + 'normalize.css/normalize.css',
+    paths.libs + 'swiper/dist/css/swiper.min.css'
   ],
   pugSrc:      [paths.pug + 'pages/*.pug', '!' + paths.pug + '_*.pug']
 };

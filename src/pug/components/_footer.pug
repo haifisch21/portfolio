@@ -1,3 +1,18 @@
 include ../../../node_modules/bemto.pug/bemto
 include ../components/_vars
 
+.footer-bg
+    .container
+        .row_flex
+            +b.footer-block
+                +b.contacts-grid
+                    +e.A(href="https://www.facebook.com/alex.irtichev").link
+                        +b.icon-facebook2
+                    +e.A(href="https://github.com/haifisch21").link
+                        +b.icon-github
+                    +e.A(href="https://www.linkedin.com/in/oleksandr-irtyshchev-b59719185/").link
+                        +b.icon-linkedin
+                +b.info
+                    +e.A(href="index.html").title Студия Александра Иртыщева
+                    +e.P.subtitle Все права защищены
+                    +e.P.copyright © 2019

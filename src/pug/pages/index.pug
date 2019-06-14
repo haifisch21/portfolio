@@ -2,13 +2,12 @@ include ../../../node_modules/bemto.pug/bemto
 include ../components/_vars
 include ../components/_mixin
 
-
 +base-page
     .main-bg
         .container
             .main
                 +b.logo
-                    +e.A(href="#").studio Александра Иртыщева
+                    +e.A(href="index.html").studio Александра Иртыщева
                 +b.main-text
                     +e.H1.title FRONT-END РАЗРАБОТКА НА ПРОФЕССИОНАЛЬНОМ УРОВНЕ
                     +e.P.subtitle Если вы устали тратить время на поиски идеального сайта - хватит это терпеть
@@ -17,7 +16,7 @@ include ../components/_mixin
     .dark-bg
         .container
             +b.introduce
-                +e.P.title Давайте <br> знакомиться
+                +e.P.title Давайте знакомиться
                 include ../components/_separator
                 +e.P.text Меня зовут Александр. Занимаюсь версткой веб-сайтов разной сложности. Разработка для меня - это постоянное развитие в профессиональном плане и открытие новых возможностей в it-сфере. Благодаря многолетнему опыту мне удалось выяснить, насколько важно клиенту получить высокоэффективный сайт.
             +b.knowledge
@@ -35,13 +34,14 @@ include ../components/_mixin
             +b.suggest
                 +e.P.title ЧТО Я МОГУ ПРЕДЛОЖИТЬ ВАШЕМУ БИЗНЕСУ?
                 include ../components/_separator
-                .row_flex
-                    +b.suggest-grid
+                +b.suggest-grid
+                    .row_flex
                         each item in suggest
                             +b.suggest-block
                                 +e.IMG(src="/img/" + item.img).img
                                 +e.P.title=item.title
                                 +e.P.text=item.text
+
     .dark-bg
         .container
             +b.portfolio
@@ -56,6 +56,7 @@ include ../components/_mixin
                                 +e.IMG(src="/img/" + item.img).img
                 +e.P.link-text Больше работ вы можете найти по этой
                     +e.A(href="https://www.behance.net/citrus2904e0b6").link ссылке
+
     .light-bg
         .container
             +b.more-skills
