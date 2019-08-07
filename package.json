@@ -1,26 +1,19 @@
 {
-  "name": "rosteks",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "make build command for create project build in ./build folder ```bash npm run build ```",
   "main": "index.js",
   "scripts": {
     "start": "gulp",
     "build": "gulp build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://gitlab.com/freewayspb/rosteks.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://gitlab.com/freewayspb/rosteks/issues"
-  },
   "dependencies": {
     "bemto.pug": "git://github.com/kizu/bemto.git",
+    "bootstrap-sass": "^3.4.1",
+    "jquery": "^3.4.1",
     "mime": "^2.4.4",
     "normalize.css": "^8.0.1",
-    "swiper": "https://github.com/nolimits4web/swiper",
+    "swiper": "^4.5.0",
     "tabed": "^0.7.3",
     "tabled": "^0.3.6"
   },
@@ -60,5 +53,15 @@
     "pug": "^2.0.3",
     "pug-cli": "^1.0.0-alpha6",
     "uglify-js": "^3.4.9"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haifisch21/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haifisch21/portfolio/issues"
+  },
+  "homepage": "https://github.com/haifisch21/portfolio#readme"
 }

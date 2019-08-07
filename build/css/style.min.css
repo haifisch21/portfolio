@@ -295,6 +295,84 @@ button {
 .more-skills-block {
   padding-bottom: 10rem; }
 
+.slider__title {
+  font: 700 normal 2rem / 1 "Montserrat", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 7.9rem; }
+
+.swiper-slide__text {
+  font: 600 normal 1.6rem / 1 "Montserrat", sans-serif;
+  font-style: italic;
+  text-align: center;
+  line-height: 2.4rem; }
+
+.swiper-slide__author {
+  font: 400 normal 1.6rem / 1 "Montserrat", sans-serif;
+  padding-top: 4.8rem;
+  padding-bottom: 5.4rem;
+  text-align: center;
+  width: 20rem; }
+
+.swiper-slide__author-hr {
+  background-color: #d9d9d9;
+  width: 5rem;
+  height: 0.1rem;
+  border: none; }
+
+.slider-grid {
+  position: relative; }
+
+.slider:before {
+  content: url("/img/quotes.png");
+  position: absolute; }
+
+.slider::after {
+  position: absolute; }
+
+.author-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap; }
+
+.pagination-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-bottom: 8.5rem; }
+
+.swiper-button-prev-unique {
+  content: url("/img/arrow.svg"); }
+
+.swiper-button-next-unique {
+  content: url("/img/arrow.svg");
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  margin-left: 3rem; }
+
+.swiper-button-prev-unique .swiper-button-next-unique :active, :hover, :focus {
+  outline: 0;
+  outline-offset: 0; }
+
 @font-face {
   font-family: 'icomoon';
   src: url("/fonts/icomoon.eot?avvq7y");
@@ -539,6 +617,15 @@ button {
     padding-top: 3rem;
     color: #fff; } }
 
+@media (min-width: 320px), (max-width: 768px -1px) {
+    .slider:before {
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+              transform: translateX(-50%);
+      top: 16rem; }
+    .slider::after {
+      display: none; } }
+
 @media (min-width: 768px) {
   .main-bg {
     background: url("/img/bgmd.jpg") no-repeat top;
@@ -564,6 +651,11 @@ button {
       width: calc(50% - 30px);
       margin-left: 15px;
       margin-right: 15px; }
+    .slider:before {
+      left: 90%; }
+    .slider::after {
+      top: 10%;
+      left: 50%; }
     .footer-block {
       display: -webkit-box;
       display: -ms-flexbox;

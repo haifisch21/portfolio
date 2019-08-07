@@ -27,6 +27,7 @@ const gulp         = require('gulp'),
 let cssvariables = require('postcss-css-variables');
 let nested = require('postcss-nested');
 
+
 const paths = {
   js:     './src/js/',
   libs:   './node_modules/',
@@ -46,6 +47,7 @@ const sources = {
   ],
   libsJsSrc:   [
     paths.libs + 'tabed/src/tabed.js',
+    paths.libs + 'swiper/dist/js/swiper.js'
   ],
   imgSrc:      paths.images + '**/*.{png,jpg,jpeg,gif,svg,ico}',
   fontsSrc:    paths.fonts + '**/*.{woff,woff2,ttf, eot}',
@@ -53,7 +55,8 @@ const sources = {
   libsSassSrc: [
     paths.libs + 'tabed/src/tabed.scss',
     paths.libs + 'normalize.css/normalize.css',
-    paths.libs + 'swiper/dist/css/swiper.min.css'
+    paths.libs + 'swiper/dist/css/swiper.css'
+
   ],
   pugSrc:      [paths.pug + 'pages/*.pug', '!' + paths.pug + '_*.pug']
 };
@@ -171,6 +174,7 @@ gulp.task('assets', function() {
              .pipe(debug({title: 'assets'}))
              .pipe(gulp.dest(paths.dest.root));
 });
+
 
 gulp.task('watch', function() {
   gulp.watch(paths.pug + '**/*.pug', gulp.series('pug'));

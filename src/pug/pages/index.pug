@@ -62,7 +62,26 @@ include ../components/_mixin
             +b.more-skills
                 +e.P.title Дополнительные навыки
                 include ../components/_separator
-                    +b.more-skills-block
-                        .row_flex
-                            each item in moreSkills
-                                +e.P.text=item.text
+                +b.more-skills-block
+                    .row_flex
+                        each item in moreSkills
+                            +e.P.text=item.text
+
+    .dark-bg
+        .container
+            +b.slider-grid
+                +b.slider
+                    +e.title Обо мне говорят отзывы
+                    include ../components/_separator
+                    +b.swiper-container
+                        +b.swiper-wrapper
+                            each item in sliderBlock
+                                +b.swiper-slide
+                                    +e.P.text=item.text
+                                    .author-block
+                                        +e.HR.author-hr
+                                        +e.P.author=item.name
+                        +b.pagination-block
+                            +b.swiper-button-prev-unique
+                            +b.swiper-button-next-unique
+
