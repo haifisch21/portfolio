@@ -3,73 +3,67 @@
   <component name="ChangeListManager">
     <list default="true" id="340bc150-f6b7-494d-8885-c99cc3164d98" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/css/.libs 2.css.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/css/style.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/.Montserrat-Black 2.ttf.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/.Montserrat-Black 2.woff.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/.Montserrat-Bold 2.ttf.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/.Montserrat-ExtraBold 2.ttf.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/.Montserrat-ExtraLight 2.ttf.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/.Montserrat-Italic 2.ttf.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/.Montserrat-Light 2.ttf.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/.Montserrat-Medium 2.ttf.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/.Montserrat-Regular 2.ttf.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/.Montserrat-Regular 2.woff.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/.Montserrat-SemiBold 2.ttf.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/.Montserrat-SemiBold 2.woff.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/.Montserrat-Thin 2.ttf.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/.Montserrat-Thin 2.woff.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/icomoon 2.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/icomoon 2.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/arrow 2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/bem 2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/bem-grey 2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/bg-main 2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/bgmd 2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/bootstrap-4 2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/bootstrap-4-grey 2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/calendar 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/css 2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/facebook-logo 2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/git 2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/git-grey 2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/gulpjs_Logo 2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/gulpjs_Logo-grey 2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/html-5 2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/html-grey 2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/hunt-logo 2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/icomoon 2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/icon-css-3 2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/icon-css-3-grey 2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/javascript-1 2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/javascript-grey 2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/less_logo 2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/less_logo-grey 2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/pug 2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/pug-grey 2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/sass_Logo_Color 2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/sass_Logo_Color-grey 2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/scss_Logo_Color 2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/scss_Logo_Color-grey 2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/wordpress 2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/wordpress-grey 2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/scripts 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/scripts.js 2.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/scripts.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/scripts.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css/style.min 2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css/style.min.css 2.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/core/node_modules/resolve/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/plugin-proposal-dynamic-import/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/plugin-syntax-dynamic-import/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/plugin-transform-member-expression-literals/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/plugin-transform-property-literals/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/plugin-transform-reserved-words/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@gulp-sourcemaps/identity-map/node_modules/normalize-path/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@gulp-sourcemaps/map-sources/node_modules/normalize-path/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/align-text/node_modules/kind-of/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/anymatch/node_modules/normalize-path/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bin-version/node_modules/pump/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/block-stream/node_modules/inherits/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/buffer/node_modules/base64-js/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/node_modules/inherits/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cloneable-readable/node_modules/inherits/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/ms/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-spawn/node_modules/yallist/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css/node_modules/inherits/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/duplexify/node_modules/inherits/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/engine.io-client/node_modules/ms/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/engine.io/node_modules/ms/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/execa/node_modules/yallist/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/expand-brackets/node_modules/ms/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/finalhandler/node_modules/ms/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/flush-write-stream/node_modules/inherits/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/follow-redirects/node_modules/ms/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/from2/node_modules/inherits/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fstream/node_modules/inherits/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gifsicle/node_modules/pump/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/glob/node_modules/inherits/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/inherits/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-errors/node_modules/inherits/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/json5/node_modules/minimist/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/node_modules/minimist/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-filters/node_modules/wordwrap/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pumpify/node_modules/inherits/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/node_modules/inherits/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/resolve-from/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/resp-modifier/node_modules/ms/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/send/node_modules/inherits/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/send/node_modules/ms/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/serve-index/node_modules/inherits/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/serve-index/node_modules/ms/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/snapdragon/node_modules/ms/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/socket.io-client/node_modules/ms/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/socket.io-parser/node_modules/ms/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/ms/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/svgo/node_modules/mdn-data/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tar/node_modules/inherits/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/undefsafe/node_modules/ms/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/yargs/node_modules/wordwrap/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/components/_vars.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/components/_vars.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/pages/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,38 +71,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pug/pages/index.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1240">
+            <state relative-caret-position="1485">
               <caret line="99" column="60" selection-start-line="99" selection-start-column="60" selection-end-line="99" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/styles/_variables.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="_vars.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pug/components/_vars.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1165">
-              <caret line="153" column="38" lean-forward="true" selection-start-line="153" selection-start-column="38" selection-end-line="153" selection-end-column="38" />
+            <state relative-caret-position="703">
+              <caret line="177" column="28" selection-start-line="177" selection-start-column="28" selection-end-line="177" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file leaf-file-name="_main.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/styles/_main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1014">
-              <caret line="622" column="21" selection-start-line="622" selection-start-column="21" selection-end-line="622" selection-end-column="21" />
+            <state relative-caret-position="837">
+              <caret line="652" column="29" lean-forward="true" selection-start-line="652" selection-start-column="29" selection-end-line="652" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -157,12 +151,16 @@
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/src/styles/_variables.scss" />
         <option value="$PROJECT_DIR$/src/js/main.js" />
-        <option value="$PROJECT_DIR$/src/pug/components/_vars.pug" />
         <option value="$PROJECT_DIR$/src/assets/img/mail.svg" />
         <option value="$PROJECT_DIR$/src/pug/pages/index.pug" />
         <option value="$PROJECT_DIR$/src/styles/_main.scss" />
+        <option value="$PROJECT_DIR$/src/pug/components/_vars.pug" />
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -170,15 +168,28 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <gulpfiles>
+      <GulpfileState>
+        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
+      </GulpfileState>
+    </gulpfiles>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="2560" />
-    <option name="height" value="1440" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -245,13 +256,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.prettier" value="true" />
+    <property name="node.js.path.for.package.prettier" value="project" />
+    <property name="node.js.selected.package.prettier" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -281,7 +294,7 @@
     </option>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -318,41 +331,102 @@
       <workItem from="1568746382354" duration="596000" />
       <workItem from="1569333340289" duration="531000" />
       <workItem from="1569427866962" duration="2838000" />
+      <workItem from="1569507670737" duration="112000" />
+      <workItem from="1569507798231" duration="1529000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86531000" />
+    <option name="totallyTimeSpent" value="88172000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24970461" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
-      <window_info id="npm" order="3" side_tool="true" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24930556" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.329927" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info id="npm" order="3" side_tool="true" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.329927" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/pug/pages/index.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="99" column="60" selection-start-line="99" selection-start-column="60" selection-end-line="99" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pug/components/_vars.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2295">
+          <caret line="153" column="38" lean-forward="true" selection-start-line="153" selection-start-column="38" selection-end-line="153" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/_main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9330">
+          <caret line="622" column="21" selection-start-line="622" selection-start-column="21" selection-end-line="622" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pug/pages/index.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="99" column="60" selection-start-line="99" selection-start-column="60" selection-end-line="99" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pug/components/_vars.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2295">
+          <caret line="153" column="38" lean-forward="true" selection-start-line="153" selection-start-column="38" selection-end-line="153" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/_main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9330">
+          <caret line="622" column="21" selection-start-line="622" selection-start-column="21" selection-end-line="622" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/img/hunt.jpg" />
     <entry file="file://$USER_HOME$/Desktop/rosteks/rosteks/src/styles/style.scss" />
     <entry file="file://$USER_HOME$/Desktop/rosteks/rosteks/src/styles/_svg-fonts.scss" />
@@ -365,9 +439,6 @@
           <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/_reset.scss">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -383,9 +454,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/swiper/dist/css/swiper.min.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/package.json" />
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -395,28 +463,10 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/gulpfile.js" />
-    <entry file="file://$PROJECT_DIR$/build/css/style.min.css.map">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1807" />
-      </provider>
-      <provider editor-type-id="sourcemapFileViewerProvider" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/_separator.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap-sass/assets/javascripts/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -431,33 +481,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="12" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/_bootstrap.js" />
     <entry file="file://$PROJECT_DIR$/src/styles/_bootstrap.scss" />
-    <entry file="file://$PROJECT_DIR$/build/css/libs.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/swiper.scss" />
-    <entry file="file://$PROJECT_DIR$/node_modules/swiper/.eslintrc.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/swiper/bower.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/swiper/scripts/banner.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/postcss-pxtorem/node_modules/postcss/lib/terminal-highlight.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.git/info/exclude">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -469,11 +498,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3045">
           <caret line="203" column="1" selection-start-line="203" selection-start-column="1" selection-end-line="203" selection-end-column="1" />
-          <folding>
-            <element signature="e#5845#6103#2" expanded="true" />
-            <element signature="e#6221#6479#2" expanded="true" />
-            <element signature="e#7798#8056#2" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -483,13 +507,6 @@
           <caret line="99" column="63" selection-start-line="99" selection-start-column="63" selection-end-line="99" selection-end-column="63" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/_fonts.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/js/scripts.js.map">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="sourcemapFileViewerProvider" />
     </entry>
     <entry file="file://$PROJECT_DIR$/build/js/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -509,9 +526,6 @@
           <caret line="57" column="45" lean-forward="true" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/_grid.scss">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/build/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -541,9 +555,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pug/components/_header.pug">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pug/components/_footer.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -558,37 +569,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/message.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/mail.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pug/components/_vars.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1165">
-          <caret line="153" column="38" lean-forward="true" selection-start-line="153" selection-start-column="38" selection-end-line="153" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pug/pages/index.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1240">
+        <state relative-caret-position="1485">
           <caret line="99" column="60" selection-start-line="99" selection-start-column="60" selection-end-line="99" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pug/components/_vars.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="177" column="28" selection-start-line="177" selection-start-column="28" selection-end-line="177" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/_main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1014">
-          <caret line="622" column="21" selection-start-line="622" selection-start-column="21" selection-end-line="622" selection-end-column="21" />
+        <state relative-caret-position="837">
+          <caret line="652" column="29" lean-forward="true" selection-start-line="652" selection-start-column="29" selection-end-line="652" selection-end-column="29" />
         </state>
       </provider>
     </entry>
