@@ -1,5 +1,4 @@
 var swiper = new Swiper('.swiper-container', {
-    autoHeight: true,
     spaceBetween: 30,
     centeredSlides: true,
     loop:true,

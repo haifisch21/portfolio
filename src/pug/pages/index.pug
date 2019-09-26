@@ -84,4 +84,17 @@ include ../components/_mixin
                     +b.pagination-block
                         +b.swiper-button-prev-unique
                         +b.swiper-button-next-unique
+    .light-bg
+        .container
+            +b.contacts
+                +e.title как со мной связаться?
+                include ../components/_separator
+                +e.subtitle Желаете получить эффективный сайт уже сейчас?
+                +e.text От вас лишь достаточно заполнить простую форму
 
+            +b.request
+                each item in request
+                    +b.request-block
+                        +e.IMG(src="/img/" + item.img).img
+                        +e.INPUT(type="text" placeholder=" "+item.text).area
+                +e.BUTTON(type="submit").btn Оставить заявку

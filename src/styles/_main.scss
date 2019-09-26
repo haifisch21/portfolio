@@ -579,3 +579,74 @@
     height: available;
   }
 }
+
+.contacts{
+  &__title{
+    @include font(20px, 700);
+    padding-top: 10.7rem;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  &__subtitle {
+    @include font(17px, 600);
+    color: $canvas-gray;
+    text-align: center;
+    padding-bottom: 2.5rem;
+    line-height: 24px;
+  }
+
+  &__text{
+    @include font(17px, 400);
+    color: $wetAsphalt;
+    text-align: center;
+    line-height: 24px;
+  }
+}
+
+.request{
+  padding-top: 6.5rem;
+  display: flex;
+  flex-direction: column;
+
+
+  &__btn{
+    @include font(15px, 500);
+    background-color: $yellow;
+    border: none;
+    width: 29rem;
+    margin: 0 auto;
+    padding-top: 1.8rem;
+    padding-bottom: 1.8rem;
+
+    &:hover{
+      cursor: pointer;
+    }
+  }
+}
+
+.request-block{
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #9e9e9e;
+  justify-content: center;
+  margin-bottom: 3rem;
+
+  &__img{
+    width: 4rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+  }
+
+  &__area{
+    @include font(15px, 400);
+    border: none;
+    line-height: 30px;
+    font-style: italic;
+    width: 23rem;
+    color: $canvas-gray;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+  }
+}

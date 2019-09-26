@@ -394,24 +394,7 @@ button {
   line-height: 2.4rem; }
 
 .request {
-  padding-top: 6.5rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column; }
-  .request__btn {
-    font: 500 normal 1.5rem / 1 "Montserrat", sans-serif;
-    background-color: #f1d830;
-    border: none;
-    width: 29rem;
-    margin: 0 auto;
-    padding-top: 1.8rem;
-    padding-bottom: 1.8rem; }
-    .request__btn:hover {
-      cursor: pointer; }
+  padding-top: 6.5rem; }
 
 .request-block {
   display: -webkit-box;
@@ -424,8 +407,7 @@ button {
   border-bottom: 1px solid #9e9e9e;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center;
-  margin-bottom: 3rem; }
+          justify-content: center; }
   .request-block__img {
     width: 4rem;
     padding-right: 1.5rem;
