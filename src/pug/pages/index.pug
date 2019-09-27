@@ -12,7 +12,7 @@ include ../components/_mixin
                     +e.H1.title FRONT-END РАЗРАБОТКА НА ПРОФЕССИОНАЛЬНОМ УРОВНЕ
                     +e.P.subtitle Если вы устали тратить время на поиски идеального сайта - хватит это терпеть
                 +b.button
-                    +e.BUTTON(type="button").btn Связаться со мной
+                    +e.A(href="#contactAnchor").btn Связаться со мной
     .dark-bg
         .container
             +b.introduce
@@ -84,9 +84,9 @@ include ../components/_mixin
                     +b.pagination-block
                         +b.swiper-button-prev-unique
                         +b.swiper-button-next-unique
-    .light-bg
+    .light-bg#contactAnchor
         .container
-            +b.contacts
+            +b.communication
                 +e.title как со мной связаться?
                 include ../components/_separator
                 +e.subtitle Желаете получить эффективный сайт уже сейчас?
@@ -98,3 +98,13 @@ include ../components/_mixin
                         +e.IMG(src="/img/" + item.img).img
                         +e.INPUT(type="text" placeholder=" "+item.text).area
                 +e.BUTTON(type="submit").btn Оставить заявку
+
+            +b.contacts
+                each item in contact
+                    +b.contact-block
+                        +e.IMG(src='/img/'+ item.img).img
+                        if item.href
+                            +e.A(href=''+item.link).link=item.text
+                        else
+                            +e.P.text=item.text
+

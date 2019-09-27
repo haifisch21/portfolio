@@ -44,10 +44,13 @@ const paths = {
 const sources = {
   jsSrc:       [
     paths.js + 'main.js',
+    paths.js + 'anchorscript.js'
   ],
   libsJsSrc:   [
     paths.libs + 'tabed/src/tabed.js',
-    paths.libs + 'swiper/dist/js/swiper.js'
+    paths.libs + 'swiper/dist/js/swiper.js',
+    paths.libs + 'jquery/dist/jquery.min.js'
+
   ],
   imgSrc:      paths.images + '**/*.{png,jpg,jpeg,gif,svg,ico}',
   fontsSrc:    paths.fonts + '**/*.{woff,woff2,ttf, eot}',
