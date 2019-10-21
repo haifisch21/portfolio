@@ -5,7 +5,7 @@ include ../components/_mixin
 +base-page
     .main-bg
         .container
-            .main
+            .main#main
                 +b.logo
                     +e.A(href="index.html").studio Александра Иртыщева
                 +b.main-text
@@ -90,7 +90,7 @@ include ../components/_mixin
                 +e.title как со мной связаться?
                 include ../components/_separator
                 +e.subtitle Желаете получить эффективный сайт уже сейчас?
-                +e.text От вас лишь достаточно заполнить простую форму
+                +e.text От Вас лишь достаточно заполнить простую форму
 
             +b.request
                 each item in request
