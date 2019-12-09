@@ -19,6 +19,7 @@
   "dependencies": {
     "bemto.pug": "git://github.com/kizu/bemto.git",
     "bootstrap-sass": "^3.4.1",
+    "html": "^1.0.0",
     "jquery": "^3.4.1",
     "mime": "^2.4.4",
     "normalize.css": "^8.0.1",
