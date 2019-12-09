@@ -750,14 +750,12 @@
   }
   &__link{
     text-decoration: none;
-    color: $black;
   }
   &__text{
     cursor: pointer;
     margin-left: .75rem;
     @media (min-width: $sm) {
       @include font(16px, 500);
-      color: $black;
     }
   }
 }

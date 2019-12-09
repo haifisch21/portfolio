@@ -1,2 +1,0 @@
-"use strict";var swiper=new Swiper(".swiper-container",{spaceBetween:30,centeredSlides:!0,loop:!0,autoplay:{delay:7500,disableOnInteraction:!1},pagination:{el:".swiper-pagination",clickable:!0},navigation:{nextEl:".swiper-button-next-unique",prevEl:".swiper-button-prev-unique"}});$(document).ready(function(){$("#main").on("click","a",function(e){e.preventDefault();var n=$(this).attr("href"),t=$(n).offset().top;$("body,html").animate({scrollTop:t},1500)})});
-//# sourceMappingURL=scripts.js.map
