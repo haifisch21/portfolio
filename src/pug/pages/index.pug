@@ -5,14 +5,14 @@ include ../components/_mixin
 +base-page
     .main-bg
         .container
-            .main#main
+            .main
                 +b.logo
                     +e.A(href="index.html").studio Александра Иртыщева
                 +b.main-text
                     +e.H1.title FRONT-END РАЗРАБОТКА НА ПРОФЕССИОНАЛЬНОМ УРОВНЕ
                     +e.P.subtitle Если вы устали тратить время на поиски идеального сайта - хватит это терпеть
                 +b.button
-                    +e.A(href="#contact").btn Связаться со мной
+                    +e.A(href="#contactAnchor").btn Связаться со мной
     .dark-bg
         .container
             +b.introduce
@@ -84,13 +84,13 @@ include ../components/_mixin
                     +b.pagination-block
                         +b.swiper-button-prev-unique
                         +b.swiper-button-next-unique
-    .light-bg#contact
+    .light-bg#contactAnchor
         .container
             +b.communication
                 +e.title как со мной связаться?
                 include ../components/_separator
                 +e.subtitle Желаете получить эффективный сайт уже сейчас?
-                +e.text От Вас лишь достаточно заполнить простую форму
+                +e.text От вас лишь достаточно заполнить простую форму
 
             +b.request
                 each item in request
