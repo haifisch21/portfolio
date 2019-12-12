@@ -10,3 +10,4 @@ gen
 /build/
 /node_modules/
 .DS_Store
+*.xml
