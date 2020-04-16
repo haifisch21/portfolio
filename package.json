@@ -20,12 +20,16 @@
     "bemto.pug": "git://github.com/kizu/bemto.git",
     "bootstrap-sass": "^3.4.1",
     "html": "^1.0.0",
-    "jquery": "^3.4.1",
+    "intl-tel-input": "^16.1.0",
+    "jquery": "^3.5.0",
+    "jquery-validation": "^1.19.1",
+    "jquery.maskedinput": "^1.4.1",
     "mime": "^2.4.4",
     "normalize.css": "^8.0.1",
     "swiper": "^4.5.0",
     "tabed": "^0.7.3",
-    "tabled": "^0.3.6"
+    "tabled": "^0.3.6",
+    "update": "^0.7.4"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",

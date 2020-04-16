@@ -11,3 +11,4 @@ gen
 /node_modules/
 .DS_Store
 *.xml
+prepros-6.config

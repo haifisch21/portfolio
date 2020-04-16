@@ -615,6 +615,7 @@
 
 .request{
   display: flex;
+
   @media (min-width: $sm) {
     padding-top: 6.5rem;
     flex-direction: column;
@@ -659,6 +660,8 @@
   }
 }
 
+
+
 .request-block{
   display: flex;
   flex-direction: row;
@@ -666,6 +669,7 @@
   margin-bottom: 3rem;
   align-items: center;
   align-content: center;
+
 
   @media (min-width: $md) {
     margin-left: 1.5rem;
@@ -711,6 +715,7 @@
       width: 18rem;
     }
   }
+
 }
 
 .contacts{
@@ -760,4 +765,24 @@
       color: $black;
     }
   }
+}
+
+.error{
+  border-bottom: 1px solid $wine;
+  -webkit-animation-name: shake;
+  -webkit-animation-duration: .2s;
+  -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes shake {
+  0% { -webkit-transform: translateX(0)}
+  20% { -webkit-transform: translateX(-3px)}
+  30% { -webkit-transform: translateX(0)}
+  40% { -webkit-transform: translateX(3px)}
+  50% { -webkit-transform: translateX(0)}
+  60% { -webkit-transform: translateX(-3px)}
+  70% { -webkit-transform: translateX(0)}
+  80% { -webkit-transform: translateX(3px)}
+  90% { -webkit-transform: translateX(0)}
+  100% { -webkit-transform: translateX(-3px)}
 }

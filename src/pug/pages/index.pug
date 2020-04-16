@@ -92,11 +92,11 @@ include ../components/_mixin
                 +e.subtitle Желаете получить эффективный сайт уже сейчас?
                 +e.text От Вас лишь достаточно заполнить простую форму
 
-            +b.request
+            +b.FORM.request
                 each item in request
                     +b.request-block
                         +e.IMG(src="/img/" + item.img).img
-                        +e.INPUT(type="text" placeholder=" "+item.text).area
+                        +e.INPUT(type=""+item.type placeholder=" "+item.text name=""+item.name id=""+item.id).area
                 +e.BUTTON(type="submit").btn Оставить заявку
 
             +b.contacts
@@ -107,4 +107,4 @@ include ../components/_mixin
                             +e.A(href=''+item.link).link=item.text
                         else
                             +e.P.text=item.text
-
+                            
