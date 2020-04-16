@@ -55,11 +55,9 @@ $(document).ready(function () {
         }
     });
 
-
     var input = document.querySelector("#phone");
-
     window.intlTelInput(input, {
-        onlyCountries: ["ru", "ua"],
+        onlyCountries: ["ru", "ua", "by"],
         autoFormat: false,
         nationalMode: false,
         initialCountry: "ua",
