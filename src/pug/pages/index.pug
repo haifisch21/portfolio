@@ -92,11 +92,16 @@ include ../components/_mixin
                 +e.subtitle Желаете получить эффективный сайт уже сейчас?
                 +e.text От Вас лишь достаточно заполнить простую форму
 
-            +b.FORM.request
-                each item in request
-                    +b.request-block
-                        +e.IMG(src="/img/" + item.img).img
-                        +e.INPUT(type=""+item.type placeholder=" "+item.text name=""+item.name id=""+item.id).area
+            +b.FORM(action="#").request
+                +b.request-block
+                    +e.IMG(src="/img/user.svg").img
+                    +e.INPUT(type="text" placeholder="Укажите ваше имя" name="name" required  id="name").area
+                +b.request-block
+                    +e.IMG(src="/img/mail.svg").img
+                    +e.INPUT(type="email" placeholder="Укажите ваш e-mal адрес" name="email" required id="email").area
+                +b.request-block
+                    +e.IMG(src="/img/phone.svg").img
+                    +e.INPUT(name="phone" type="tel" required  id="phone").area
                 +e.BUTTON(type="submit").btn Оставить заявку
 
             +b.contacts

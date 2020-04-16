@@ -30,11 +30,39 @@ $(document).ready(function () {
         }
     });
 
+    $('form').submit(function (e) {
+        e.preventDefault();
+        var hasEmpty = false;
+        // Перебираем все поля формы
+        $('form').find('input').each(function() {
+            if ($(this).prop('required')) {
+                // если поле обязательное, но пустое, то hasEmpty становится true
+                hasEmpty = hasEmpty || !$(this).val();
+            }
+        });
+        if (hasEmpty) {
+            return false;
+        } else {
+            $.ajax({
+                type: "POST",
+                url: "mailer/smart.php",
+                data: $(this).serialize()
+            }).done(function () {
+                $(this).find("input").val("");
+                $('form').trigger('reset');
+            });
+            return false;
+        }
+    });
+
     var input = document.querySelector("#phone");
     window.intlTelInput(input, {
         onlyCountries: ["ru", "ua"],
         initialCountry: "ua",
-        customPlaceholder: "Number"
+        hiddenInput: "full_phone",
+        utilsScript: "/build/js/utils.js?1585994360633" // just for formatting/placeholders etc
     });
+
+
 });
 

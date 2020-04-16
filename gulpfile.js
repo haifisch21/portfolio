@@ -132,6 +132,11 @@ gulp.task('copy:mailer', function() {
         .pipe(gulp.dest(paths.dest.root + 'mailer/'));
 })
 
+gulp.task('copy:util', function() {
+    return gulp.src(paths.js + 'utils.js')
+        .pipe(gulp.dest(paths.dest.root + 'js/'));
+})
+
 
 gulp.task('libsCss', function () {
 
@@ -213,7 +218,7 @@ gulp.task('serve', function () {
 
 gulp.task('build', gulp.series(
     'clean',
-    gulp.parallel('pug', 'sass', 'js', 'img', 'fonts', 'libsCss', 'libsJs', 'copy:mailer')
+    gulp.parallel('pug', 'sass', 'js', 'img', 'fonts', 'libsCss', 'libsJs', 'copy:mailer', 'copy:util')
 ));
 
 gulp.task('default', gulp.series('build', gulp.parallel('watch', 'serve')));
