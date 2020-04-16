@@ -3,7 +3,7 @@ $(document).ready(function () {
         rules: {
             name: {
                 required: true,
-                minlength: 2
+                minlength: 2,
             },
             email: {
                 required: true,
@@ -46,7 +46,7 @@ $(document).ready(function () {
             $.ajax({
                 type: "POST",
                 url: "mailer/smart.php",
-                data: $(this).serialize()
+                data: $(this).serialize(),
             }).done(function () {
                 $(this).find("input").val("");
                 $('form').trigger('reset');
@@ -55,14 +55,16 @@ $(document).ready(function () {
         }
     });
 
+
     var input = document.querySelector("#phone");
+
     window.intlTelInput(input, {
         onlyCountries: ["ru", "ua"],
+        autoFormat: false,
+        nationalMode: false,
         initialCountry: "ua",
-        hiddenInput: "full_phone",
+        numberType: "MOBILE",
         utilsScript: "/build/js/utils.js?1585994360633" // just for formatting/placeholders etc
     });
-
-
 });
 
