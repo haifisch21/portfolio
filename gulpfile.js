@@ -22,7 +22,9 @@ const gulp = require('gulp'),
     gulpIf = require('gulp-if'),
     del = require('del'),
     newer = require('gulp-newer'),
-    notify = require('gulp-notify');
+    notify = require('gulp-notify'),
+    imagemin = require('gulp-imagemin'),
+    htmlmin = require('gulp-htmlmin');
 
 let cssvariables = require('postcss-css-variables');
 let nested = require('postcss-nested');
@@ -79,8 +81,8 @@ gulp.task('pug', function () {
         .pipe(pug({pretty: true}))
         .pipe(htmlPrettify({indent_char: ' ', indent_size: 2}))
         .pipe(plumber.stop())
+        .pipe(htmlmin({ collapseWhitespace: true }))
         .pipe(gulp.dest(paths.dest.root));
-
 });
 
 gulp.task('sass', function () {
@@ -139,7 +141,6 @@ gulp.task('copy:util', function() {
 
 
 gulp.task('libsCss', function () {
-
     return gulp.src(sources.libsSassSrc)
         .pipe(plumber())
         .pipe(sass({}))
@@ -165,6 +166,7 @@ gulp.task('js', function () {
 gulp.task('libsJs', function () {
     return gulp.src(sources.libsJsSrc)
         .pipe(plumber())
+        .pipe(gulpIf(isDevelopment, sourcemaps.init()))
         .pipe(concat('libs.js'))
         .pipe(plumber.stop())
         .pipe(gulp.dest(paths.dest.root + 'js/'));
@@ -172,6 +174,7 @@ gulp.task('libsJs', function () {
 
 gulp.task('img', function () {
     return gulp.src(sources.imgSrc)
+        .pipe(imagemin())
         .pipe(gulp.dest(paths.dest.root + 'img'));
 });
 
