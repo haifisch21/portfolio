@@ -23,8 +23,8 @@ const gulp = require('gulp'),
     del = require('del'),
     newer = require('gulp-newer'),
     notify = require('gulp-notify'),
-    imagemin = require('gulp-imagemin'),
-    htmlmin = require('gulp-htmlmin');
+    htmlmin = require('gulp-htmlmin'),
+    imagemin = require('gulp-imagemin');
 
 let cssvariables = require('postcss-css-variables');
 let nested = require('postcss-nested');
@@ -57,7 +57,8 @@ const sources = {
         paths.libs + 'jquery/dist/jquery.min.js',
         paths.libs + 'jquery-validation/dist/jquery.validate.min.js',
         paths.libs + 'intl-tel-input/build/js/intlTelInput.js',
-        paths.libs + 'intl-tel-input/build/js/utils.js'
+        paths.libs + 'intl-tel-input/build/js/utils.js',
+        paths.libs + 'sweetalert/dist/sweetalert.min.js'
     ],
 
     imgSrc: paths.images + '**/*.{png,jpg,jpeg,gif,svg,ico}',
@@ -173,9 +174,19 @@ gulp.task('libsJs', function () {
 });
 
 gulp.task('img', function () {
-    return gulp.src(sources.imgSrc)
-        .pipe(imagemin())
-        .pipe(gulp.dest(paths.dest.root + 'img'));
+    return gulp.src('./src/assets/img/*')
+        .pipe(imagemin([
+            imagemin.gifsicle({interlaced: true}),
+            imagemin.mozjpeg({quality: 75, progressive: true}),
+            imagemin.optipng({optimizationLevel: 7}),
+            imagemin.svgo({
+                plugins: [
+                    {removeViewBox: true},
+                    {cleanupIDs: false}
+                ]
+            })
+        ]))
+        .pipe(gulp.dest(paths.dest.root + 'img'))
 });
 
 gulp.task('fonts', function () {

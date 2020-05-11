@@ -9,3 +9,10 @@ mixin base-page(page)
                 block
             include ../components/_footer
             include ../meta/_scripts
+
+mixin picture(main_img, webp, mobile_version, mobile_webp)
+    +e.PICTURE
+        +e.SOURCE(type="image/webp" srcset=webp)
+        +e.SOURCE(type="image/webp" srcset=mobile_webp media="(max-width: 600px)")
+        +e.SOURCE(srcset=mobile_version media="(max-width: 600px)")
+        +e.IMG(src=main_img)

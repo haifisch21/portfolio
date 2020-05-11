@@ -48,6 +48,7 @@ $(document).ready(function () {
                 url: "mailer/smart.php",
                 data: $(this).serialize(),
             }).done(function () {
+                swal("Спасибо!", "Мы свяжемся с Вами в ближайшее время", "success");
                 $(this).find("input").val("");
                 $('form').trigger('reset');
             });
@@ -65,4 +66,3 @@ $(document).ready(function () {
         utilsScript: "/build/js/utils.js?1585994360633" // just for formatting/placeholders etc
     });
 });
-
