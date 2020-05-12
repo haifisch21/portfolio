@@ -54,8 +54,7 @@ include ../components/_mixin
                         each item in portfolio
                             +b.portfolio-block
                                 +e.PICTURE
-                                    +e.
-                                    +e.IMG(src="/img/" + item.img).img
+                                    +picture("/img/"+ item.webp, "/img/"+ item.img).img
                 +e.P.link-text Больше работ вы можете найти по этой
                     +e.A(href="https://www.behance.net/citrus2904e0b6").link ссылке
 

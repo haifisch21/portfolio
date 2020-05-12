@@ -12,7 +12,7 @@
 
   @media (min-width: $md) {
     background: url("/img/bgmd.jpg") no-repeat top;
-    background-size: cover;
+    background-size: cover
   }
 }
 
@@ -786,5 +786,3 @@
   90% { -webkit-transform: translateX(0)}
   100% { -webkit-transform: translateX(-3px)}
 }
-
-
