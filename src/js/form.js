@@ -48,7 +48,15 @@ $(document).ready(function () {
                 url: "mailer/smart.php",
                 data: $(this).serialize(),
             }).done(function () {
-                swal("Спасибо!", "Мы свяжемся с Вами в ближайшее время", "success");
+                Swal.fire({
+                    icon: "success",
+                    title: "Спасибо!",
+                    text: "Мы свяжемся с Вами в ближайшее время",
+                    confirmButtonColor: "#f1d830",
+                    customClass:{
+                        confirmButton: 'btn-style'
+                    }
+                });
                 $(this).find("input").val("");
                 $('form').trigger('reset');
             });
@@ -65,4 +73,5 @@ $(document).ready(function () {
         numberType: "MOBILE",
         utilsScript: "/build/js/utils.js?1585994360633" // just for formatting/placeholders etc
     });
+
 });

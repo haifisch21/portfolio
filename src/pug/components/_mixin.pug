@@ -13,4 +13,4 @@ mixin base-page(page)
 mixin picture(webp, main_img)
     +e.PICTURE
         +e.SOURCE(srcset=webp type="image/webp").img
-        +e.IMG(src=main_img).img
+        +e.IMG(src=main_img type="image/jpeg").img

@@ -58,7 +58,7 @@ const sources = {
         paths.libs + 'jquery-validation/dist/jquery.validate.min.js',
         paths.libs + 'intl-tel-input/build/js/intlTelInput.js',
         paths.libs + 'intl-tel-input/build/js/utils.js',
-        paths.libs + 'sweetalert/dist/sweetalert.min.js'
+        paths.libs + 'sweetalert2/dist/sweetalert2.min.js'
     ],
 
     imgSrc: paths.images + '**/*.{png,jpg,jpeg,gif,svg,ico}',
@@ -69,7 +69,8 @@ const sources = {
         paths.libs + 'tabed/src/tabed.scss',
         paths.libs + 'normalize.css/normalize.css',
         paths.libs + 'swiper/dist/css/swiper.css',
-        paths.libs + 'intl-tel-input/build/css/intlTelInput.css'
+        paths.libs + 'intl-tel-input/build/css/intlTelInput.css',
+        paths.libs + 'sweetalert2/dist/sweetalert2.min.css'
     ],
 
     pugSrc: [paths.pug + 'pages/*.pug', '!' + paths.pug + '_*.pug']
