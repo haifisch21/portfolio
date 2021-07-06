@@ -627,7 +627,10 @@
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-
+    align-items: flex-start;
+  }
+  @media (min-width: $lg) {
+    align-items: center;
   }
 
   &__btn{
@@ -669,7 +672,6 @@
   margin-bottom: 3rem;
   align-items: center;
   align-content: center;
-
 
   @media (min-width: $md) {
     margin-left: 1.5rem;
