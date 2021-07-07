@@ -49,29 +49,14 @@ $(document).ready(function () {
                 data: $(this).serialize(),
             }).done(function () {
                 Swal.fire({
-                    icon: "success",
-                    title: "Спасибо!",
-                    text: "Мы свяжемся с Вами в ближайшее время",
-                    confirmButtonColor: "#f1d830",
-                    customClass:{
-                        confirmButton: 'btn-style'
-                    }
-                });
+                    icon: 'success',
+                    title: 'Олично!',
+                    text: 'В ближайшее время я свяжусь с Вами',
+                })
                 $(this).find("input").val("");
                 $('form').trigger('reset');
             });
             return false;
         }
     });
-
-    var input = document.querySelector("#phone");
-    window.intlTelInput(input, {
-        onlyCountries: ["ru", "ua", "by"],
-        autoFormat: false,
-        nationalMode: false,
-        initialCountry: "ua",
-        numberType: "MOBILE",
-        utilsScript: "/build/js/utils.js?1585994360633" // just for formatting/placeholders etc
-    });
-
 });
